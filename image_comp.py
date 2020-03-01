@@ -6,4 +6,4 @@ i2 = Image.open("./input_2/image.jpg")
 diff = ImageChops.difference(i1, i2)
 
 if diff.getbbox():
-	diff.save("./output/difference.jpg")
+    diff.save("./output/difference.jpg")
